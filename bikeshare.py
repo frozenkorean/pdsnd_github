@@ -453,6 +453,8 @@ def main():
         restart = input("\nWould you like to restart?\n\
 (Please enter 'y' or 'n'): ")
         if restart.lower() != 'y':
+            print("Thank you for using program.\n")
+            print("I hope it has provided you with valuable insights.")
             break
 
 
