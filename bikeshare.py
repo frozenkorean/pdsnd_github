@@ -60,7 +60,7 @@ def get_city():
 
 def date_filter():
     """
-    Asks user to specify a month and day to filter by.
+    Asks user to specify a month and day (or both) to filter by.
 
     Returns:
         (str) month - name of the month to filter by, or "All" to apply no month filter
@@ -131,7 +131,8 @@ def date_filter():
 
 def get_filters():
     """
-    Runs get_city and date_filter functions to set correct filters
+    Runs get_city to get the user input for the city choices.
+    Asks if the user wants to set month, date filter.
 
     Returns:
         (str) city - name of the city to analyze
