@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+1/18/2020
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+User chooses one of the cities and chose whether or not to filter the data by month, day, both, or not at all. Every time there is a user input, checks are put into place so that the user can go back and input their choice again or quit the program. Various statistics, including customer characteristics, popular stations, and more, are calculated.
 
 ### Files used
-Include the files used
+bikeshare.py
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
